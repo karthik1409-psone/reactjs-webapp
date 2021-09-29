@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tangerine');
+
+.App {
+}
+
+    .App header {
+        height: 150px;
+        padding: 30px 20px 20px 20px;
+    }
+
+    .App section header img, .App section header nav {
+        display: inline;
+    }
+
+    .App section header nav {
+        float: right;
+        margin-top: 50px;
+    }
+
+        .App section header nav a {
+            display: inline-block;
+            padding: 5px 15px 10px 15px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+            color: #222222;
+        }
+
+            .App section header nav a:hover {
+                border-bottom: 5px solid red;
+            }
+
+p.quote {
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p.author {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    text-align: right;
+}
+
+.banner {
+    background-image: url('Images/bg-page2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    display: block;
+}
+
+.profiles {
+    padding: 50px;
+    display: table;
+}
+
+.profile {
+    display: inline;
+    width: 50%;
+    float:left;
+}
+
+.profilepic {
+    display: table-cell;
+    padding: 20px 40px;
+    float:left;
+}
+
+.profiledata {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.profiletitle {
+    font-weight: bold;
+}
+
+.profilebio {
+}
+
+/******* SECTIONS */
+
+.App .intro {
+    background-image: url('Images/bg-page1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App .aboutus, .App .contactus {
+    background-color: #fcfcfc;
+    border-top: 2px solid #222222;
+}
+
+    .App .contactus .contactuscontainer {
+        background-image: url('Images/bg-page3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .App .contactus .contactuscontainer:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .App .contactus .contactuscontainer .form-group{
+            padding:10px;
+
+        }
+
+            .App .contactus .contactuscontainer .form-group:after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .App .contactus .contactuscontainer label {
+                color: #fff;
+                display: inline-block;
+                min-width: 100px;
+            }
+
+        .App .contactus .contactuscontainer .form-control {
+            display: inline-block;
+            min-width:380px;
+        }
+
+        .App .contactus .contactuscontainer button{
+            float:right;
+        }
+
+        .App .intro article {
+            padding-bottom: 200px;
+        }
+
+.App .intro p {
+    color: #ffffff;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.App .intro header nav a {
+    color: white;
+}
+
+.App .contactusform{
+    max-width:500px;
+    float:right;
+    padding:100px 0 100px 0;
+}
+
+
+
+.App footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 50px;
+    min-height:140px;
+}
+
+
+/*** End Sections */
+
+.alert-info{
+    color:#fff;
+}
+
